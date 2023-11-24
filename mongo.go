@@ -6,17 +6,17 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-var _ sessions.Store = (*store)(nil)
+var _ sessions.Store = (*mongoStore)(nil)
 
-func NewStore(c *mongo.Collection, maxAge int, ensureTTL bool, keyPairs ...[]byte) sessions.Store {
-	return &store{mongostore.NewMongoStore(c, maxAge, ensureTTL, keyPairs...)}
+func NewMongoStore(c *mongo.Collection, maxAge int, ensureTTL bool, keyPairs ...[]byte) sessions.Store {
+	return &mongoStore{mongostore.NewMongoStore(c, maxAge, ensureTTL, keyPairs...)}
 }
 
-type store struct {
+type mongoStore struct {
 	*mongostore.MongoStore
 }
 
-func (c *store) Options(options sessions.Options) {
+func (c *mongoStore) Options(options sessions.Options) {
 	c.MongoStore.Options = &sessions.Options{
 		Path:     options.Path,
 		Domain:   options.Domain,
