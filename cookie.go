@@ -4,9 +4,7 @@ import (
 	"github.com/gorilla/sessions"
 )
 
-type CookieStore interface {
-	Store
-}
+var _ sessions.Store = (*cookieStore)(nil)
 
 // Keys are defined in pairs to allow key rotation, but the common case is to set a single
 // authentication key and optionally an encryption key.
@@ -17,7 +15,7 @@ type CookieStore interface {
 //
 // It is recommended to use an authentication key with 32 or 64 bytes. The encryption key,
 // if set, must be either 16, 24, or 32 bytes to select AES-128, AES-192, or AES-256 modes.
-func NewCookieStore(keyPairs ...[]byte) CookieStore {
+func NewCookieStore(keyPairs ...[]byte) Store {
 	return &cookieStore{sessions.NewCookieStore(keyPairs...)}
 }
 
