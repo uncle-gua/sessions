@@ -21,7 +21,7 @@ type boltStore struct {
 	*boltstore.BoltStore
 }
 
-func (s *boltStore) Options(options sessions.Options) {
+func (s *boltStore) Options(options Options) {
 	s.BoltStore.Options = &sessions.Options{
 		Path:     options.Path,
 		Domain:   options.Domain,
