@@ -8,6 +8,8 @@ require (
 	github.com/gorilla/sessions v1.2.2
 	github.com/laziercoder/mongostore v0.0.6
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b
+	github.com/uncle-gua/bolthold v0.0.0-20240515020857-2d18ffc87dbc
+	github.com/uncle-gua/boltstore v0.0.0-20240515015325-b497bb42ea26
 	go.mongodb.org/mongo-driver v1.15.0
 )
 
@@ -39,6 +41,7 @@ require (
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20240424034433-3c2c7870ae76 // indirect
+	go.etcd.io/bbolt v1.3.10 // indirect
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
