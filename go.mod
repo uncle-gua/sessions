@@ -9,12 +9,12 @@ require (
 	github.com/laziercoder/mongostore v0.0.6
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b
 	github.com/uncle-gua/bolthold v0.0.0-20240515020857-2d18ffc87dbc
-	github.com/uncle-gua/boltstore v0.0.0-20240515015325-b497bb42ea26
+	github.com/uncle-gua/boltstore v0.0.0-20240522144145-4a1581208517
 	go.mongodb.org/mongo-driver v1.15.0
 )
 
 require (
-	github.com/bytedance/sonic v1.11.6 // indirect
+	github.com/bytedance/sonic v1.11.7 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
@@ -23,7 +23,7 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.20.0 // indirect
-	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/goccy/go-json v0.10.3 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/gorilla/securecookie v1.1.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
