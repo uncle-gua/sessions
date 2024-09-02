@@ -8,10 +8,10 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/gorilla/context v1.1.2
 	github.com/gorilla/sessions v1.4.0
-	github.com/laziness-coders/mongostore v0.0.14
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b
 	github.com/uncle-gua/bolthold v0.0.0-20240515020857-2d18ffc87dbc
 	github.com/uncle-gua/boltstore v0.0.0-20240522144145-4a1581208517
+	github.com/uncle-gua/mongostore v0.0.0-20240902121646-3030a90987c7
 	go.mongodb.org/mongo-driver v1.16.1
 )
 

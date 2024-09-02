@@ -47,8 +47,6 @@ github.com/klauspost/cpuid/v2 v2.0.9/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa02
 github.com/klauspost/cpuid/v2 v2.2.8 h1:+StwCXwm9PdpiEkPyzBXIy+M9KUb4ODm0Zarf1kS5BM=
 github.com/klauspost/cpuid/v2 v2.2.8/go.mod h1:Lcz8mBdAVJIBVzewtcLocK12l3Y+JytZYpaMropDUws=
 github.com/knz/go-libedit v1.10.1/go.mod h1:MZTVkCWyz0oBc7JOWP3wNAzd002ZbM/5hgShxwh4x8M=
-github.com/laziness-coders/mongostore v0.0.14 h1:4RrtOeTsGr3pBbImtpCZT7L4LB/kXfAzpCPXds69RgA=
-github.com/laziness-coders/mongostore v0.0.14/go.mod h1:Rh+yJax2Vxc2QY62clIM/kRnLk+TxivgSLHOXENXPtk=
 github.com/leodido/go-urn v1.4.0 h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ=
 github.com/leodido/go-urn v1.4.0/go.mod h1:bvxc+MVxLKB4z00jd1z+Dvzr47oO32F/QSNjSBOlFxI=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
@@ -84,6 +82,8 @@ github.com/uncle-gua/bolthold v0.0.0-20240515020857-2d18ffc87dbc h1:0EkujsuNh7tR
 github.com/uncle-gua/bolthold v0.0.0-20240515020857-2d18ffc87dbc/go.mod h1:4yFPQggUfwGyHXIjJktU24P/HOLnpZykuCv0e2JbW1U=
 github.com/uncle-gua/boltstore v0.0.0-20240522144145-4a1581208517 h1:dRVZGHt0pVy4vBLvuotZvXv2l62kX82zCw3zmTTcYjI=
 github.com/uncle-gua/boltstore v0.0.0-20240522144145-4a1581208517/go.mod h1:krnyEijN4VymZWfCU2C7VwpM2vIGxcrKGbfLfXlpiMs=
+github.com/uncle-gua/mongostore v0.0.0-20240902121646-3030a90987c7 h1:wqmuLb4wJ8bJKTpypEIXy/k6Hez/Srx0eR/d6DIGWcM=
+github.com/uncle-gua/mongostore v0.0.0-20240902121646-3030a90987c7/go.mod h1:bQlOIUIh7BFxkJ98q6ArDwr2TepoH3QSk4pictJW/HA=
 github.com/xdg-go/pbkdf2 v1.0.0 h1:Su7DPu48wXMwC3bs7MCNG+z4FhcyEuz5dlvchbq0B0c=
 github.com/xdg-go/pbkdf2 v1.0.0/go.mod h1:jrpuAogTd400dnrH08LKmI/xc1MbPOebTwRqcT5RDeI=
 github.com/xdg-go/scram v1.1.2 h1:FHX5I5B4i4hKRVRBCFRxq1iQRej7WO3hhBuJf+UUySY=
