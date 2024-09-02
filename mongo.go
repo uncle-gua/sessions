@@ -2,7 +2,7 @@ package sessions
 
 import (
 	"github.com/gorilla/sessions"
-	"github.com/laziercoder/mongostore"
+	"github.com/laziness-coders/mongostore"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
