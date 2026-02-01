@@ -3,7 +3,7 @@ package sessions
 import (
 	"github.com/gorilla/sessions"
 	"github.com/uncle-gua/mongostore"
-	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/v2/mongo"
 )
 
 var _ sessions.Store = (*mongoStore)(nil)
